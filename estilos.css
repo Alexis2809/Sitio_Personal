@@ -1,0 +1,126 @@
+body,
+
+.header {
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(171, 178, 185 );
+    background-size: cover;
+    text-align: center; 
+    letter-spacing: 2px;
+    font-family: 'Odibee Sans', cursive;
+    color: rgb(0, 0, 0);
+}
+
+.contenedor-main{
+    display: flex;
+} 
+
+
+.contenedor-main .caja1{
+    width: 30%;
+    height: 150px;
+    
+}
+
+.contenedor-main .caja2{
+    width: 40%;
+    height: 150px;
+    
+}
+
+.contenedor-main .caja3{
+    width: 30%;
+    height: 150px;
+    
+    
+}
+
+.contenedor-2{
+    margin-top: 60px;
+    display: flex;
+    font-family: 'Source Code Pro', monospace;
+} 
+
+
+.contenedor-2 .caja1{
+    width: 30%;
+    height: 200px;
+    background-color: rgb(171, 178, 185 );
+}
+
+.contenedor-2 .caja2{
+    width: 40%;
+    height: 200px;
+    background-color: rgb(171, 178, 185 );
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contenedor-2 .caja3{
+    width: 30%;
+    height: 200px;
+    background-color: rgb(171, 178, 185 );
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    font-family: 'Indie Flower', cursive;
+    margin: 10px;
+}
+
+.footer{
+    display: flex;
+    font-family: 'Stint Ultra Condensed', cursive;
+}
+
+.contenedor-footer{
+    display: flex;
+} 
+
+
+.contenedor-footer .caja1{
+    
+    width: 30%;
+    height: 90px;
+    background-color: rgb(133, 193, 233);
+    
+}
+
+.contenedor-footer .caja1 .twitter{
+    font-family: 'Pacifico', cursive;
+    justify-self: center;
+    margin-top: 40px;
+    
+}
+
+.contenedor-footer .caja2{
+    width: 40%;
+    height: 90px;
+    background-color: rgb(130, 224, 170);
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px
+}
+
+.contenedor-footer .caja2 .whats{
+    
+    justify-self: center;
+    margin-top: 40px;
+    font-family: 'Pacifico', cursive;
+}
+
+.contenedor-footer .caja3{
+    width: 30%;
+    height: 90px;
+    background-color: rgb(241, 148, 138);
+    
+}
+
+.contenedor-footer .caja3 .gmail{
+    
+    justify-self: center;
+    margin-top: 40px;
+    font-family: 'Pacifico', cursive;
+}
